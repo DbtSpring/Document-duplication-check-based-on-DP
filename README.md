@@ -1,14 +1,14 @@
-*中文介绍：* [跳转](#📋 项目概述)
+*中文介绍：* [跳转](#项目概述)
 
-*English intro:* [GoTo](#📋 Project Overview)
+*English intro:* [GoTo](# Project Overview)
 
 ---
 
-## 📋 项目概述
+## 项目概述
 
 实现基于动态规划（DP）的文献查重算法：通过比对待查文本与库文本的句子级相似度，识别重复内容。相似度基于单词匹配计算，≥40% 判定为重复，并输出匹配部分的对齐结果。
 
-## 🛠️ 项目结构
+## 项目结构
 
 ```plaintext
 DPDuplicationCheck/
@@ -26,7 +26,7 @@ DPDuplicationCheck/
 │   └── DocumentDuplicationChecker.java # 主类
 ```
 
-## 📊 运行结果
+## 运行结果
 
 ```
 相似度：100.0%
@@ -46,7 +46,7 @@ lib ： the transition from one state to --- ---- -- not necessarily determinist
 ....
 ```
 
-## 📊 分析时间复杂度
+## 分析时间复杂度
 
 核心 DP 矩阵构建的时间复杂度为 \(O(mn)\)（m = 待查句单词数，n = 库句单词数）。
 
@@ -54,11 +54,11 @@ lib ： the transition from one state to --- ---- -- not necessarily determinist
 
 ---
 
-## 📋 Project Overview
+## Project Overview
 
 Implement a document duplication check algorithm based on Dynamic Programming (DP): By comparing the sentence-level similarity between the text to be checked and library texts, identify duplicate content. Similarity is calculated based on word matching—sentences with a similarity ≥ 40% are judged as duplicates, and the aligned results of matching parts are output.
 
-## 🛠️ Project Structure
+## Project Structure
 
 ```plaintext
 DPDuplicationCheck/
@@ -76,7 +76,7 @@ DPDuplicationCheck/
 │   └── DocumentDuplicationChecker.java # Main class
 ```
 
-## 📊 Execution Results
+## Execution Results
 
 ```plaintext
 Similarity: 100.0%
@@ -96,6 +96,6 @@ lib:  the transition from one state to --- ---- -- not necessarily deterministic
 ....
 ```
 
-## 📊 Time Complexity Analysis
+## Time Complexity Analysis
 
 The time complexity of constructing the core DP matrix is \(O(mn)\) (where m = number of words in the sentence to be checked, n = number of words in the library sentence).
