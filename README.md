@@ -1,6 +1,6 @@
 *中文介绍：* [跳转](#项目概述)
 
-*English intro:* [GoTo](# Project Overview)
+*English intro:* [GoTo](#project-overview)
 
 ---
 
@@ -97,5 +97,6 @@ lib:  the transition from one state to --- ---- -- not necessarily deterministic
 ```
 
 ## Time Complexity Analysis
+
 
 The time complexity of constructing the core DP matrix is \(O(mn)\) (where m = number of words in the sentence to be checked, n = number of words in the library sentence).
